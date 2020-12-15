@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1608041463481,
+  "lastUpdate": 1608042073838,
   "repoUrl": "https://github.com/mkungla/vars",
   "entries": {
     "Benchmark": [
@@ -160,6 +160,108 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkBool/value:new",
             "value": 0.447,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marko.kungla@gmail.com",
+            "name": "Marko Kungla",
+            "username": "mkungla"
+          },
+          "committer": {
+            "email": "marko.kungla@gmail.com",
+            "name": "Marko Kungla",
+            "username": "mkungla"
+          },
+          "distinct": true,
+          "id": "b4daa8c0e82838b8eee2e6225c598088fe780590",
+          "message": "add Contibuting/bench results to README",
+          "timestamp": "2020-12-15T16:20:11+02:00",
+          "tree_id": "9af3fcd7251b47cb0caf492c0580291afb30a536",
+          "url": "https://github.com/mkungla/vars/commit/b4daa8c0e82838b8eee2e6225c598088fe780590"
+        },
+        "date": 1608042073278,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkNew/string:repeat",
+            "value": 12.9,
+            "unit": "ns/op",
+            "extra": "93599355 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNew/string:unique",
+            "value": 14.4,
+            "unit": "ns/op",
+            "extra": "83450905 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkParse/string:cached:pkg",
+            "value": 84,
+            "unit": "ns/op",
+            "extra": "14111700 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkParse/string:cached:fmt",
+            "value": 96.9,
+            "unit": "ns/op",
+            "extra": "11872696 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkParse/string:pkg",
+            "value": 134,
+            "unit": "ns/op",
+            "extra": "8936280 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkParse/string:fmt",
+            "value": 151,
+            "unit": "ns/op",
+            "extra": "7842322 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkParse/int:pkg",
+            "value": 107,
+            "unit": "ns/op",
+            "extra": "11139801 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkParse/int:fmt",
+            "value": 129,
+            "unit": "ns/op",
+            "extra": "9182926 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkBool/strconv",
+            "value": 0.447,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkBool/variable:new",
+            "value": 14.2,
+            "unit": "ns/op",
+            "extra": "84408990 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkBool/variable:new:typed",
+            "value": 19.4,
+            "unit": "ns/op",
+            "extra": "59222894 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkBool/variable:parse",
+            "value": 73,
+            "unit": "ns/op",
+            "extra": "16489204 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkBool/value:new",
+            "value": 0.451,
             "unit": "ns/op",
             "extra": "1000000000 times\n2 procs"
           }
